@@ -57,6 +57,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        gold: "hsl(var(--gold))",
+        "gold-dark": "hsl(var(--gold-dark))",
+        bronze: "hsl(var(--bronze))",
+        parchment: "hsl(var(--parchment))",
+        vintage: "hsl(var(--vintage))",
+      },
+      fontFamily: {
+        serif: ["Playfair Display", "Georgia", "serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
