@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-16">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-2xl font-serif font-bold">
@@ -21,7 +21,7 @@ export const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4" />
-                <span className="text-primary-foreground/80">(11) 9999-9999</span>
+                <span className="text-primary-foreground/80">21 95950-6755</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4" />
@@ -34,31 +34,15 @@ export const Footer = () => {
             </div>
           </div>
           
-          {/* Links */}
-          <div className="space-y-4">
-            <h4 className="text-lg font-serif font-semibold">Links Úteis</h4>
-            <div className="space-y-2">
-              <a href="#" className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                Sobre Nós
-              </a>
-              <a href="#" className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                Nosso Acervo
-              </a>
-              <a href="#" className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                Política de Privacidade
-              </a>
-              <a href="#" className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                Termos de Uso
-              </a>
-            </div>
-          </div>
           
           {/* Social */}
           <div className="space-y-4">
             <h4 className="text-lg font-serif font-semibold">Redes Sociais</h4>
             <div className="flex space-x-4">
               <a 
-                href="#" 
+                href="https://www.instagram.com/pescadoresdereliquias/" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
               >
                 <Instagram className="w-5 h-5" />
